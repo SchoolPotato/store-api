@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Fifteen Waste",
+        "price": 1,
+        "rating": 4.5,
+        "desc": "Perfectly generic, these shoes are popular among artists. These shoes are constantly recycled; when traded back to Terracycle for supplies, they are repurposed into new pairs and redistributed to their employees. As such, working at Terracycle is quite dangerous; shoes are in high demand.",
+        "companyString": "Terracycle"
+    },
+    {
+        "name": "Air Jordan CCXIV",
+        "price": 15,
+        "rating": 4.75,
+        "desc": "These boots have spiked toes and muscle-activated thrusters on the heels. Due to their capability for assisting in fast travel in addition to combat, they are known as 'Heelys' in some circles.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "Snow Star",
+        "price": 5,
+        "rating": 3.5,
+        "desc": "Mountain climbing shoes with the ability to expand and become snow shoes. Being low quality, they often get stuck in one form or the other, making them difficult to use.",
+        "companyString": "Bata"
+    },
+    {
+        "name": "Ultraboost 112",
+        "price": 40,
+        "rating": 4.9,
+        "desc": "The third in Nike's line of travel shoes, the Air Jordans allow nearly 360° movement in the air. As they are spike-tipped, they're often called 'Luxury Heelys,' in reference to the cheaper brand.",
+        "companyString": "Adidas"
+    }
+]
