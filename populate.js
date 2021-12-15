@@ -1,7 +1,11 @@
-const mongooose = require("mongoose");
+const Product = require('./models/product');
+const data = require('./data.json');
 
-await connectDB(process.env.MONGO_URI)
-    await Product.deleteMany()
-    await Product.create(jsonProducts)
-    console.log('Success!!!!')
-    process.exit(0)
+const populate = async (data, req, res) => {
+    await Product.deleteMany();
+    data.map(async (item) => {
+        const product = await Product.create(item);
+    });
+}
+
+module.exports = { populate, data };

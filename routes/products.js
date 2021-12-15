@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 // Import Controllers
-const {getAllTasks, getTask, updateTask, deleteTask, createTask} = require('../controllers/tasks');
+const {getAllProducts, getProduct, updateProduct, deleteProduct, createProduct} = require('../controllers/products');
 
 // router.get('/', getThing);
 // router.post('/', createThing);
@@ -17,11 +17,11 @@ const {getAllTasks, getTask, updateTask, deleteTask, createTask} = require('../c
 //    res.send('All Items');
 // })
 
-// router.route('/').get(getAllTasks);
+// router.route('/').get(getAllProducts);
 // router.route('/postman').post(createPostmanThing);
 // router.route('/:id').get(updateThing).delete(deleteThing);
 
-router.route('/').get(getAllTasks).post(createTask);
-router.route('/:id').patch(updateTask).delete(deleteTask).get(getTask);
+router.route('/').get(getAllProducts).post(createProduct);
+router.route('/:id').patch(updateProduct).delete(deleteProduct).get(getProduct);
 
 module.exports = router;

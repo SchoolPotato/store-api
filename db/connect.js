@@ -1,7 +1,4 @@
 const mongoose = require('mongoose');
-require("dotenv");
-
-const connectionString = MONGO_URI
 
 const connectDB = (url) => {
     mongoose
