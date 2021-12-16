@@ -8,15 +8,15 @@
     },
     {
         "name": "Air Jordan CCXIV",
-        "price": 15,
+        "price": 20,
         "rating": 4.75,
-        "desc": "These boots have spiked toes and muscle-activated thrusters on the heels. Due to their capability for assisting in fast travel in addition to combat, they are known as 'Heelys' in some circles.",
+        "desc": "These shoes have spiked toes and muscle-activated thrusters on the heels. Due to their capability for assisting in fast travel in addition to combat, they are known as 'Heelys' in some circles.",
         "companyString": "Nike"
     },
     {
         "name": "Snow Star",
         "price": 5,
-        "rating": 3.5,
+        "rating": 2.0,
         "desc": "Mountain climbing shoes with the ability to expand and become snow shoes. Being low quality, they often get stuck in one form or the other, making them difficult to use.",
         "companyString": "Bata"
     },
@@ -24,7 +24,28 @@
         "name": "Ultraboost 112",
         "price": 40,
         "rating": 4.9,
-        "desc": "The third in Nike's line of travel shoes, the Air Jordans allow nearly 360° movement in the air. As they are spike-tipped, they're often called 'Luxury Heelys,' in reference to the cheaper brand.",
+        "desc": "The third in Adidas' line of travel shoes, the Ultraboost pair allows nearly 360° movement in the air. As they are spike-tipped, they're often called 'Luxury Heelys,' in reference to the cheaper brand.",
+        "companyString": "Adidas"
+    },
+    {
+        "name": "Blazer Mid 7077",
+        "price": 10,
+        "rating": 3.5,
+        "desc": "Flamethrower shoes. Though they are strong in combat, their lack of travel functionality and tendancy to sweep the user off their feat bring them down somewhat.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "New Challenger",
+        "price": 50,
+        "rating": 5.0,
+        "desc": "The ultimate in combat shoes. Spiked tips, full force-field, 360° muscle-activated thrusters, front-facing blasters; there is a reason they're so pricey.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "Alphabounce++++",
+        "price": 10,
+        "rating": 4.0,
+        "desc": "Undef",
         "companyString": "Adidas"
     }
 ]
