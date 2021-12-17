@@ -43,9 +43,30 @@
     },
     {
         "name": "Alphabounce++++",
-        "price": 10,
-        "rating": 4.0,
-        "desc": "Undef",
+        "price": 5,
+        "rating": 2.0,
+        "desc": "High jump shoes, to the extreme. Capable of launching a full-size person to 30 feet, but with no method of getting down, these shoes are used as a method of execution; you either take a step, launching yourself to your death, or you starve.",
         "companyString": "Adidas"
+    },
+    {
+        "name": "Alphabounce+++++",
+        "price": 15,
+        "rating": 4.5,
+        "desc": "High jump shoes with light thrusters. Useful for not perishing from the 30 foot fall.",
+        "companyString": "Adidas"
+    },
+    {
+        "name": "Power Sandals",
+        "price": 5,
+        "rating": 1.0,
+        "desc": "These shoes were designed to launch explosives, but the launchers don't work.",
+        "companyString": "Bata"
+    },
+    {
+        "name": "Safety Shoe 2",
+        "price": 5,
+        "rating": 2.5,
+        "desc": "These shoes are for protecting your feet from danger. As such, they are airtight. Release mechanism not included.",
+        "companyString": "Bata"
     }
 ]
