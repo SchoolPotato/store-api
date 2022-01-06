@@ -11,11 +11,11 @@ Hope you enjoy!
 Using the address "/api/v1/products" will reutrn an object. Using object.product\[num\] will return all information on one pair of shoes.
 Information on each shoe will contain the following keys:
 
-\_id
-name
-price (in terms of shoes)
-featured
-rating
-createdAtDate
-companyString
-desc
+\_id<br>
+name<br>
+price (in terms of shoes)<br>
+featured<br>
+rating<br>
+createdAtDate<br>
+companyString<br>
+desc<br>
