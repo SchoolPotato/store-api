@@ -3,6 +3,7 @@
         "name": "Fifteen Waste",
         "price": 1,
         "rating": 4.5,
+        "featured": true,
         "desc": "Perfectly generic, these shoes are popular among artists. These shoes are constantly recycled; when traded back to Terracycle for supplies, they are repurposed into new pairs and redistributed to their employees. As such, working at Terracycle is quite dangerous; shoes are in high demand.",
         "companyString": "Terracycle"
     },
@@ -38,6 +39,7 @@
         "name": "New Challenger",
         "price": 50,
         "rating": 5.0,
+        "featured": true,
         "desc": "The ultimate in combat shoes. Spiked tips, full force-field, 360° muscle-activated thrusters, front-facing blasters; there is a reason they're so pricey.",
         "companyString": "Nike"
     },
@@ -66,7 +68,86 @@
         "name": "Safety Shoe 2",
         "price": 5,
         "rating": 2.5,
-        "desc": "These shoes are for protecting your feet from danger. As such, they are airtight. Release mechanism not included.",
+        "desc": "These shoes are for protecting your feet from danger. As such, they are airtight; and, by extension, they do not come off.",
+        "companyString": "Bata"
+    },
+    {
+        "name": "Air Max 2700",
+        "price": 15,
+        "rating": 4.5,
+        "desc": "Fast-Travel boots, mostly used by mail carriers. Can get you from one side of the world to the other in just over 10 hours, but with no combat capabilities, you cannot take breaks in the middle; you will end up raided.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "React Vision 20",
+        "price": 35,
+        "rating": 4,
+        "desc": "These shoes have infrared scanners on them, as well as standard combat capabilities. They connect to a visor, highlighting any living beings nearby.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "Blazer Mid 577",
+        "price": 15,
+        "rating": 2.5,
+        "desc": "an earlier version of the Flamethrower shoes. These ones did not have capabilities for disipating heat.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "HSS",
+        "price": 15,
+        "rating": 3.5,
+        "desc": "Heat Seeking Shoes. When you kick, small thrusters on the shoes make sure your kick hits. Surprisingly high quality.",
+        "companyString": "Bata"
+    },
+    {
+        "name": "Killshot 7023",
+        "price": 75,
+        "rating": 5,
+        "featured": true,
+        "desc": "On hit, these shoes completely vaporize a target.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "Dunk High",
+        "price": 2,
+        "rating": 2.5,
+        "desc": "These shoes are programmed to perform a high jump into a diving kick. It happens every time you take a step.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "React Element 92",
+        "price": 200,
+        "rating": 5,
+        "featured": true,
+        "desc": "Nuclear shoes. They are very effective.",
+        "companyString": "Nike"
+    },
+    {
+        "name": "Harden Vol. 256",
+        "price": 32,
+        "rating": 4,
+        "desc": "Shoes that can instantly put up a full-body forcefield on command. Simple, effective, and can mean the difference between life and death in a fight. Could theoretically protect from a nuclear blast.",
+        "companyString": "Adidas"
+    },
+    {
+        "name": "Energyfalcon 15",
+        "price": 30,
+        "rating": 3.5,
+        "desc": "Shoes that can control a drone. Novel concept that fell off.",
+        "companyString": "Adidas"
+    },
+    {
+        "name": "Continental 300",
+        "price": 15,
+        "rating": 4.75,
+        "desc": "Using a thin layer of air, these shoes can allow you to skate across water. They also can go very fast; using their engines, they can get up to around 300mph going between continents.",
+        "companyString": "Adidas"
+    },
+    {
+        "name": "Rockers",
+        "price": 1,
+        "rating": 0.5,
+        "desc": "These shoes are made entirely of rocks, in an attempt to become the new standard. They are unbelievably painful to wear, due to the fact that they have sharp rocks in the soles.",
         "companyString": "Bata"
     }
 ]

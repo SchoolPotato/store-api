@@ -4,11 +4,16 @@ const app = express();
 const products = require('./routes/products');
 const connectDB = require('./db/connect');
 require('dotenv').config();
+const { errorHandler } = require('./middleware/error-handler');
+const { notFound } = require('./middleware/notfound');
 
 // middleware
 app.use(express.json());
 app.use('/api/v1/products',products);
 app.use(express.static('public'));
+
+app.use('/', errorHandler)
+app.use('/', notFound);
 
 // routes
 // app.get('/',(req, res) => {
