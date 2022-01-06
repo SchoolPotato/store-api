@@ -13,7 +13,7 @@ Information on each shoe will contain the following keys:
 
 \_id
 name
-price
+price (in terms of shoes)
 featured
 rating
 createdAtDate
