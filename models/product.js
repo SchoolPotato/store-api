@@ -26,6 +26,7 @@ const ProductSchema = new mongoose.Schema({
     companyString:{
         type:String,
         required: [true, "Must provide company string"],
+        enum: ["Nike", "Adidas", "Bata", "Terracycle"],
         maxlength: [50, 'Company string must be under 50 characters']
     },
     desc:{

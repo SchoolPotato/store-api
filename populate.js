@@ -25,7 +25,11 @@ const populate = async (data, req, res) => {
     await connectDB(process.env.MONGO_URI);
     await Product.deleteMany();
     await data.map(async (item) => {
-        const product = await Product.create(item);
+        try{const product = await Product.create(item)}
+        catch(err) {
+            console.err("Whoops! Uhhh, try that again. It'll work this time, I swear.", err);
+            setTimeout(() => {console.err("Whoops!")}, 5000);
+        }
         console.log("\x1b[32m", loading(data.length - 1), "\x1b[0m");
         count++
     });
