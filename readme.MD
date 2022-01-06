@@ -1,4 +1,4 @@
-# Lore
+# Info
 
 This list is set in the far future. In this future, shoes are traded like pelts, sort of. As such, prices are listed in terms of the first shoes on the list, the Fifteen Wastes.
 
