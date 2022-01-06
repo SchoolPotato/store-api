@@ -66,7 +66,29 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-h4 {
-  font-size: 150%;
+* {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  font-size: 200%;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 0rem;
+  margin-top: 3rem;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p,
+span {
+  margin-top: 0;
+  font-size: large;
   text-align: center;
 }

@@ -12,7 +12,29 @@
 </head>
 <body>
     <form class="task-form">
-        <h4>Catlogue</h4>
+        <h2>Info</h2>
+        <p>This list is set in the far future. In this future, shoes are traded like pelts, sort of. As such, prices are listed in
+        terms of the first shoes on the list, the Fifteen Wastes.<br><br>
+        
+        Most of these shoes are combat shoes, but some of them are more useful for travel or defence.<br><br>
+        
+        Hope you enjoy!
+        </p>
+        <h2>Use</h2>
+        <p>Using the address <code>/api/v1/products</code> will reutrn an object. Using <code>object.product[num]</code> will return all information on
+        one pair of shoes. <br>
+        Information on each shoe will contain the following keys:<br><br>
+        
+        <code>_id<br>
+        name<br>
+        price <span>(in terms of shoes)</span><br>
+        featured<br>
+        rating<br>
+        createdAtDate<br>
+        companyString<br>
+        desc<br>
+        </code>
+        </p>
     <!-- axios -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
         integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
